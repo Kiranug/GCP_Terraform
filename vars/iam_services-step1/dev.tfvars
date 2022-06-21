@@ -8,14 +8,14 @@ Project
 **/
 business_project_name   = "kims"
 environment             = "dev"
-project_id              = "gkedemo-350708"
+project_id              = "terraformproject01
 gke_tool_server_sa_name = "kims-iap-tunnel-user"
 application_sa_name     = "kims-ei-application"
 
 /**
 IAM
 **/
-terraform_service_account_email = "gkedemo-terraform@gkedemo-350708.iam.gserviceaccount.com"
+terraform_service_account_email = "terraform@terraformproject01.iam.gserviceaccount.com"
 
 qa_user_roles = []
 dev_user_roles = [ 
